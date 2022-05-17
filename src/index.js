@@ -11,14 +11,22 @@ root.render(
     <Global
       styles={css`
         body {
+          background-color: #f7f7f7;
           margin: 0;
           font-family: 'Lato', sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
-          background-color: #f1f1f1;
-
           width: 100%;
           color: #25252d;
+          h2 {
+            font-size: 36px;
+          }
+          p {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            color: #171718;
+            font-weight: 300;
+          }
         }
         * ::before,
         ::after {

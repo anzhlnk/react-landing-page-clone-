@@ -13,11 +13,6 @@ export const heroStyles = css`
   justify-content: center;
 `;
 
-export const logo = css`
-  font-size: 38px;
-  margin-right: 60px;
-  margin-left: 12px;
-`;
 export const navigationParent = css`
   display: flex;
   flex-direction: row;
@@ -26,6 +21,13 @@ export const navigationParent = css`
   width: 960px;
   cursor: pointer;
 `;
+
+export const logo = css`
+  font-size: 38px;
+  margin-right: 60px;
+  margin-left: 12px;
+`;
+
 export const navigationMenu1 = css`
   display: flex;
   flex-direction: row;
@@ -40,9 +42,8 @@ export const navigationMenu1 = css`
     text-decoration: none;
     font-size: 15px;
     font-weight: 300;
-    height: 38px;
     letter-spacing: 1.35px;
-    height: 38px;
+    line-height: 38px;
     color: #ffff;
   }
 `;
@@ -57,9 +58,9 @@ export const navigationMenu2 = css`
     text-decoration: none;
     color: #ffff;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1.35px;
-    height: 38px;
+    line-height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,8 +74,7 @@ export const navigationMenu2 = css`
     margin-left: 30px;
     text-decoration: none;
     border-radius: 8px;
-    height: 38px;
-    font-weight: 700;
+    line-height: 38px;
   }
 `;
 
@@ -85,8 +85,6 @@ export const wrapperStyles = css`
   flex-direction: row;
   justify-content: center;
   width: 960px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 20px;
   .infoontheleft {
     margin-top: 198px;
@@ -99,7 +97,7 @@ export const wrapperStyles = css`
     margin: 0 auto;
     letter-spacing: 0.8px;
   }
-  h2 {
+  p {
     text-align: left;
     color: #ffff;
     margin: 8px auto 32px;
@@ -128,7 +126,7 @@ export const downloadButton = css`
     font-size: 17px;
     font-weight: 700;
   }
-  .logo {
+  .logoimage {
     width: 24px;
     border-radius: 2px;
     padding-right: 12px;
@@ -140,15 +138,16 @@ export const supportButton = css`
   justify-content: center;
   background-color: #0d8c44;
   border-radius: 40px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
   padding: 13px 22px;
   color: #ffff;
   border: none;
   cursor: pointer;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 13px;
+  right: 22px;
   svg {
     color: #ffff;
     fill: #ffff;
