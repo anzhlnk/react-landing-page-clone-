@@ -5,12 +5,25 @@ export const Section4 = css`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1440px;
+  background-repeat: no-repeat;
+`;
+
+export const bcImage = css`
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url('/background2.png');
   background-size: 1440px 680px;
+  background-position: 100% 0;
+  min-height: 680px;
+  width: 1440px;
+  height: 680px;
 `;
 
 export const textandimg = css`
-  margin-top: 46px;
+  margin-top: 160px;
   width: 960px;
   display: flex;
   flex-direction: row;

@@ -11,13 +11,14 @@ root.render(
     <Global
       styles={css`
         body {
-          background-color: #f7f7f7;
+          background-color: #ffffff;
           margin: 0;
           font-family: 'Lato', sans-serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           width: 100%;
           color: #25252d;
+          box-sizing: border-box;
           h2 {
             font-size: 36px;
           }

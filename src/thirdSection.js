@@ -6,6 +6,8 @@ export const Section3 = css`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('/backgroundS3.png');
+  background-size: 1440px 773px;
 
   .textandimg2 {
     width: 960px;
@@ -22,6 +24,7 @@ export const infoontheleft2 = css`
   justify-content: start;
   width: 327px;
   padding-top: 220px;
+
   h2 {
     margin: 0px;
   }
@@ -29,7 +32,7 @@ export const infoontheleft2 = css`
     line-height: 24px;
     margin-top: 8px;
     margin-bottom: 0px;
-    padding-left: 5px;
+    padding-right: 15px;
   }
 `;
 

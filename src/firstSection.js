@@ -4,7 +4,6 @@ import { css } from '@emotion/react';
 export const heroStyles = css`
   padding: 32px 24px 0px;
   background-image: url('/background.png');
-  background-position: 100% 0;
   background-size: 1440px 869px;
   background-repeat: no-repeat;
   display: flex;
@@ -35,16 +34,22 @@ export const navigationMenu1 = css`
   align-items: center;
   justify-content: center;
   a {
-    margin: 0px 0px 0px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    color: #ffff;
+  }
+  a.navigationList {
+    margin: 0px 0px 0px 30px;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1.35px;
     line-height: 38px;
-    color: #ffff;
+  }
+  a.navigationList:hover {
+    text-decoration: underline;
+    transition: width 2s;
   }
 `;
 export const navigationMenu2 = css`
@@ -58,7 +63,7 @@ export const navigationMenu2 = css`
     text-decoration: none;
     color: #ffff;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 1.35px;
     line-height: 38px;
     display: flex;
@@ -67,6 +72,7 @@ export const navigationMenu2 = css`
   }
 
   .signUp {
+    font-weight: 700;
     display: inline-flex;
     background-color: #10ab53;
     padding: 0px 18px;
@@ -103,6 +109,7 @@ export const wrapperStyles = css`
     margin: 8px auto 32px;
     font-size: 24px;
     letter-spacing: 0.8px;
+    font-weight: 600;
   }
 `;
 

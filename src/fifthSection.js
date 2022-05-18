@@ -2,7 +2,7 @@
 import { css } from '@emotion/react';
 
 export const Section5 = css`
-  padding: 0px 24px;
+  padding: 120px 24px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,6 @@ export const infoontheleft5 = css`
     line-height: 24px;
     margin-top: 8px;
     margin-bottom: 0px;
-    padding-left: 5px;
   }
 `;
 

@@ -29,6 +29,7 @@ export const infoontheright = css`
     line-height: 24px;
     margin-top: 8px;
     margin-bottom: 0px;
+    padding-right: 10px;
   }
 `;
 
