@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export const Section2 = css`
+export const section2 = css`
   padding: 0px 24px;
   display: flex;
   align-items: center;

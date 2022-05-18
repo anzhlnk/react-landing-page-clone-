@@ -1,7 +1,5 @@
 import './App.css';
-/** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
-import { imageHouse5, infoontheleft5, Section5 } from './fifthSection';
+import { imageHouse5, infoontheleft5, section5 } from './fifthSection';
 import {
   downloadButton,
   heroStyles,
@@ -26,19 +24,19 @@ import {
   bcImage,
   imageHouse4,
   infoontheright4,
-  Section4,
+  section4,
   textandimg,
 } from './forthSection';
-import { imageHouse2, infoontheright, Section2 } from './secondSection';
+import { imageHouse2, infoontheright, section2 } from './secondSection';
 import {
   donwloadApp,
   downloadButton6,
   imageHouse6,
   infoontheright6,
-  Section6,
+  section6,
   textandimg6,
 } from './sixthSection';
-import { imageHouse3, infoontheleft2, Section3 } from './thirdSection';
+import { imageHouse3, infoontheleft2, section3 } from './thirdSection';
 
 function App() {
   return (
@@ -107,7 +105,7 @@ function App() {
         </span>
       </button>
       {/* Section 2 */}
-      <section2 css={Section2}>
+      <section2 css={section2}>
         <div className="textandimg">
           <img src="/mobile-2.png" alt="houses 2" css={imageHouse2} />
           <div css={infoontheright}>
@@ -120,7 +118,7 @@ function App() {
         </div>
       </section2>
       {/* Section 3 */}
-      <section3 css={Section3}>
+      <section3 css={section3}>
         <div className="textandimg2">
           <div css={infoontheleft2}>
             <h2>Learn </h2>
@@ -134,7 +132,7 @@ function App() {
         </div>
       </section3>
       {/* Section 4 */}
-      <section4 css={Section4}>
+      <section4 css={section4}>
         <div css={bcImage}>
           <div css={textandimg}>
             <img src="/mobile-4.png" alt="houses 2" css={imageHouse4} />
@@ -149,7 +147,7 @@ function App() {
           </div>
         </div>
       </section4>
-      <section5 css={Section5}>
+      <section5 css={section5}>
         <div className="textandimg5">
           <div css={infoontheleft5}>
             <h2>Manage</h2>
@@ -162,7 +160,7 @@ function App() {
           <img src="/mobile-5.png" alt="houses 5" css={imageHouse5} />
         </div>
       </section5>
-      <section6 css={Section6}>
+      <section6 css={section6}>
         <div className="allContent">
           <div css={textandimg6}>
             <img src="/mobile-6.png" alt="houses 6" css={imageHouse6} />
@@ -196,7 +194,7 @@ function App() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin"
-                class="svg-inline--fa fa-linkedin fa-w-14 fa-fw"
+                className="svg-inline--fa fa-linkedin fa-w-14 fa-fw"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -213,7 +211,7 @@ function App() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-square"
-                class="svg-inline--fa fa-facebook-square fa-w-14 fa-fw"
+                className="svg-inline--fa fa-facebook-square fa-w-14 fa-fw"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -230,7 +228,7 @@ function App() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="twitter-square"
-                class="svg-inline--fa fa-twitter-square fa-w-14 fa-fw"
+                className="svg-inline--fa fa-twitter-square fa-w-14 fa-fw"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -266,7 +264,7 @@ function App() {
             <a href="https://www.ark7.com/app?ref=landingfolio#:~:text=SEC%20Filings-,Terms%20%26%20Conditions,-Privacy%20Policy">
               <span>Terms & Conditions</span>
             </a>
-            <span></span>
+            <span> </span>
             <a href="https://www.ark7.com/app?ref=landingfolio#:~:text=by%2Dstep%20Instructions-,Contact,-LEGAL">
               <span>Contact</span>
             </a>

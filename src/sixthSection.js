@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export const Section6 = css`
+export const section6 = css`
   display: flex;
   flex-direction: column;
   align-items: stretch;
