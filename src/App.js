@@ -1,6 +1,5 @@
 import './App.css';
 /** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
 import { imageHouse5, sectionFive, textSectionFive } from './fifthSection';
 import {
   downloadButton,
