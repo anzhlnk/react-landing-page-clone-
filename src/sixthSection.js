@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export const section6 = css`
+export const sectionSix = css`
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -11,7 +11,7 @@ export const section6 = css`
   padding: 100px 24px 0px;
   height: 770px;
 
-  .allContent {
+  .contentSectionSix {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -20,14 +20,14 @@ export const section6 = css`
   }
 `;
 
-export const textandimg6 = css`
+export const contentSectionSix = css`
   width: 960px;
   display: flex;
   flex-flow: row;
   align-items: flex-start;
   justify-content: space-between;
 `;
-export const infoontheright6 = css`
+export const textSectionSix = css`
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -53,7 +53,7 @@ export const imageHouse6 = css`
   margin: 32px 86.5px 120px;
 `;
 
-export const donwloadApp = css`
+export const downloadApp = css`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +74,7 @@ export const donwloadApp = css`
     letter-spacing: 0.8px;
   }
 `;
-export const downloadButton6 = css`
+export const downloadButtonSectionSix = css`
   background: #fff;
   display: inline-flex;
   box-shadow: -30px 20px 50px 5px rgb(0 55 15 / 30%);
@@ -91,7 +91,7 @@ export const downloadButton6 = css`
     font-size: 17px;
     font-weight: 700;
   }
-  .logoimage {
+  .logoImageSectionSix {
     width: 24px;
     border-radius: 2px;
     padding-right: 12px;

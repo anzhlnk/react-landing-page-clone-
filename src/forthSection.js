@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export const section4 = css`
+export const sectionFour = css`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@ export const bcImage = css`
   height: 680px;
 `;
 
-export const textandimg = css`
+export const contentSectionFour = css`
   margin-top: 160px;
   width: 960px;
   display: flex;
@@ -30,7 +30,7 @@ export const textandimg = css`
   align-items: stretch;
   justify-content: space-between;
 `;
-export const infoontheright4 = css`
+export const textSectionFour = css`
   display: flex;
   flex-direction: column;
   align-items: left;

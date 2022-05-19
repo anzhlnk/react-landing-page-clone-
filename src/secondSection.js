@@ -1,13 +1,13 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export const section2 = css`
+export const sectionTwo = css`
   padding: 0px 24px;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  .textandimg {
+  .content {
     width: 960px;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@ export const section2 = css`
     justify-content: space-between;
   }
 `;
-export const infoontheright = css`
+export const textSectionTwo = css`
   display: flex;
   flex-direction: column;
   align-items: left;

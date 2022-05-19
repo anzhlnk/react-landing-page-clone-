@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export const section3 = css`
+export const sectionThree = css`
   padding: 0px 24px;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@ export const section3 = css`
   background-image: url('/backgroundS3.png');
   background-size: 1440px 773px;
 
-  .textandimg2 {
+  .contentSectionThree {
     width: 960px;
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@ export const section3 = css`
     justify-content: space-between;
   }
 `;
-export const infoontheleft2 = css`
+export const textSectionThree = css`
   display: flex;
   flex-direction: column;
   align-items: left;

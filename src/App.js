@@ -1,5 +1,7 @@
 import './App.css';
-import { imageHouse5, infoontheleft5, section5 } from './fifthSection';
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
+import { imageHouse5, sectionFive, textSectionFive } from './fifthSection';
 import {
   downloadButton,
   heroStyles,
@@ -22,21 +24,21 @@ import {
 } from './footer.js';
 import {
   bcImage,
+  contentSectionFour,
   imageHouse4,
-  infoontheright4,
-  section4,
-  textandimg,
+  sectionFour,
+  textSectionFour,
 } from './forthSection';
-import { imageHouse2, infoontheright, section2 } from './secondSection';
+import { imageHouse2, sectionTwo, textSectionTwo } from './secondSection';
 import {
-  donwloadApp,
-  downloadButton6,
+  contentSectionSix,
+  downloadApp,
+  downloadButtonSectionSix,
   imageHouse6,
-  infoontheright6,
-  section6,
-  textandimg6,
+  sectionSix,
+  textSectionSix,
 } from './sixthSection';
-import { imageHouse3, infoontheleft2, section3 } from './thirdSection';
+import { imageHouse3, sectionThree, textSectionThree } from './thirdSection';
 
 function App() {
   return (
@@ -79,11 +81,11 @@ function App() {
           </div>
         </nav>
         <div css={wrapperStyles}>
-          <div className="infoontheleft">
+          <div className="textSectionOne">
             <h1>A New Way to Invest in Real Estate </h1>
             <p>Ultra-simple. Ultra-secure.</p>
             <div css={downloadButton}>
-              <img src="/logo.webp" alt="logo" className="logoimage" />
+              <img src="/logo.webp" alt="logo" className="logoImage" />
               <a href="https://www.ark7.com/app?ref=landingfolio#:~:text=simple.%20Ultra%2Dsecure.-,Get%20the%20App,-Explore">
                 Get the App
               </a>
@@ -105,10 +107,10 @@ function App() {
         </span>
       </button>
       {/* Section 2 */}
-      <section2 css={section2}>
-        <div className="textandimg">
+      <section2 css={sectionTwo}>
+        <div className="content">
           <img src="/mobile-2.png" alt="houses 2" css={imageHouse2} />
-          <div css={infoontheright}>
+          <div css={textSectionTwo}>
             <h2>Explore </h2>
             <p>
               Browse a list of curated, income-generating properties in top
@@ -118,9 +120,9 @@ function App() {
         </div>
       </section2>
       {/* Section 3 */}
-      <section3 css={section3}>
-        <div className="textandimg2">
-          <div css={infoontheleft2}>
+      <section3 css={sectionThree}>
+        <div className="contentSectionThree">
+          <div css={textSectionThree}>
             <h2>Learn </h2>
             <p>
               Get all the details you need about a property to make informed
@@ -132,11 +134,11 @@ function App() {
         </div>
       </section3>
       {/* Section 4 */}
-      <section4 css={section4}>
+      <section4 css={sectionFour}>
         <div css={bcImage}>
-          <div css={textandimg}>
+          <div css={contentSectionFour}>
             <img src="/mobile-4.png" alt="houses 2" css={imageHouse4} />
-            <div css={infoontheright4}>
+            <div css={textSectionFour}>
               <h2>Buy</h2>
               <p>
                 Choose the number of shares you’d like in a property. Place your
@@ -147,9 +149,9 @@ function App() {
           </div>
         </div>
       </section4>
-      <section5 css={section5}>
-        <div className="textandimg5">
-          <div css={infoontheleft5}>
+      <section5 css={sectionFive}>
+        <div className="contentSectionFive">
+          <div css={textSectionFive}>
             <h2>Manage</h2>
             <p>
               Check your shares and track your distributions all in one place.
@@ -160,11 +162,11 @@ function App() {
           <img src="/mobile-5.png" alt="houses 5" css={imageHouse5} />
         </div>
       </section5>
-      <section6 css={section6}>
-        <div className="allContent">
-          <div css={textandimg6}>
+      <section6 css={sectionSix}>
+        <div className="contentSectionSix">
+          <div css={contentSectionSix}>
             <img src="/mobile-6.png" alt="houses 6" css={imageHouse6} />
-            <div css={infoontheright6}>
+            <div css={textSectionSix}>
               <h2>Enjoy</h2>
               <p>
                 Watch your wallet grow. Best of all, it’s hassle-free and
@@ -172,11 +174,15 @@ function App() {
               </p>
             </div>
           </div>
-          <div css={donwloadApp}>
+          <div css={downloadApp}>
             <p>Start Diversifying Today </p>
             <span> Now available on iOS</span>
-            <div css={downloadButton6}>
-              <img src="/logo.webp" alt="logo" className="logoimage" />
+            <div css={downloadButtonSectionSix}>
+              <img
+                src="/logo.webp"
+                alt="logo"
+                className="logoImageSectionSix"
+              />
               <a href="https://www.ark7.com/app?ref=landingfolio#:~:text=simple.%20Ultra%2Dsecure.-,Get%20the%20App,-Explore">
                 Get the App
               </a>

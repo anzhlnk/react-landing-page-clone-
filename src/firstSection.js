@@ -92,7 +92,7 @@ export const wrapperStyles = css`
   justify-content: center;
   width: 960px;
   padding-top: 20px;
-  .infoontheleft {
+  .textSectionOne {
     margin-top: 198px;
   }
 
@@ -133,7 +133,7 @@ export const downloadButton = css`
     font-size: 17px;
     font-weight: 700;
   }
-  .logoimage {
+  .logoImage {
     width: 24px;
     border-radius: 2px;
     padding-right: 12px;
